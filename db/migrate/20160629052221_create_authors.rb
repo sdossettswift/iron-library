@@ -3,7 +3,7 @@ class CreateAuthors < ActiveRecord::Migration
     create_table :authors do |t|
       t.string :first_name
       t.string :last_name
-      t.text_area :bio
+      t.string :bio
 
       t.timestamps null: false
     end

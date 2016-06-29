@@ -1,18 +1,4 @@
 Rails.application.routes.draw do
-  get 'author/index'
-
-  get 'author/new'
-
-  get 'author/show'
-
-  get 'author/create'
-
-  get 'author/update'
-
-  get 'author/edit'
-
-  get 'author/delete'
-
   get 'author/destroy'
 
   get 'book/show'
